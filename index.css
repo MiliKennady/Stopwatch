@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'fira sans', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: gray;
+    border-radius: 6px;
+}
+
+.clock-main-container{
+    margin: 1rem;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.buttons-main-container{
+    left: 1000px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    border: none;
+    user-select: none; /*does not higlght when mouse hovers over it*/
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+
+    transition: 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    background-color: black;
+}
